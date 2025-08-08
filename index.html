@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Мой блог</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* Замените URL ниже на изображение с лисами в лесу */
+    background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+  }
+
+  /* Шапка сайта */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 140, 0, 0.8); /* полупрозрачный оранжевый */
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+    border: 2px solid #fff;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 1.5em;
+    font-family: 'Arial Black', sans-serif;
+  }
+
+  nav {
+    display: flex;
+    gap: 15px;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background 0.3s;
+  }
+
+  nav a:hover {
+    background-color: rgba(255,255,255,0.3);
+  }
+
+  /* Контент */
+  section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.4); /* полупрозрачный фон для читаемости */
+    border-radius: 10px;
+  }
+
+  h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 2em;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+  }
+
+  .section-content {
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+
+  /* Подвал */
+  footer {
+    background-color: rgba(255, 140, 0, 0.8);
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 1em;
+  }
+
+  /* Анимации (пример) */
+  section {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards;
+  }
+
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <img src="https://flomaster.top/o/uploads/posts/2023-11/1700194108_flomaster-top-p-multyashnii-kotik-s-serdechkom-narisovanni-9.png" alt="Аватар" class="avatar" />
+    <h1>Мой блог</h1>
+  </div>
+  <nav>
+    <a href="#about">Обо мне</a>
+    <a href="#hobbies">Увлечения</a>
+    <a href="#activities">Достижения</a>
+    <a href="#grade">Класс и мечта</a>
+    <a href="#dream">Мечта</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>Моё имя: Елизавета </h2>
+  <div class="section-content">
+    <p>Мне 11 лет. Я люблю смотреть разные видео, слушать музыку гулять и общяться с друзиями и рисовать </p>
+  </div>
+</section>
+
+<section id="hobbies">
+  <h2>Мои увлечения</h2>
+  <div class="section-content">
+    <ul>
+      <li>рисование </li>
+      
+      
+    </ul>
+  </div>
+</section>
+
+<section id="activities">
+  <h2>Мои занятия и достижения</h2>
+  <div class="section-content">
+    <p>Я занимаюсь танцами и езжу на разные конкурсы в месте со своим тренером и группой </p>
+  </div>
+</section>
+
+<section id="grade">
+  <h2>Класс и мечта</h2>
+  <div class="section-content">
+    <p>Я перехожу в 5 класс. Моя мечта — получить компьютер для удобного обучения </p>
+  </div>
+</section>
+
+<section id="dream">
+  <h2>Моя мечта</h2>
+  <div class="section-content">
+    <p>Стать успешным и счастливым человеком, реализовать свои идеи и помогать другим.</p>
+  </div>
+</section>
+
+<!-- Подвал -->
+<footer>
+  <p>&copy; Екатеринбург 2025 .</p>
+</footer>
+
+</body>
+</html>
