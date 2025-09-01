@@ -42,6 +42,7 @@ cd FullMute
 # Установите зависимости
 pip install -r requirements.txt
 ```
+
 ## Использование
 
 **Базовое использование**
