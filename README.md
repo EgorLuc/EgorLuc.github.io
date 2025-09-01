@@ -38,7 +38,7 @@
 # Клонируйте репозиторий
 git clone https://github.com/yourusername/FullMute.git
 cd FullMute
-```
+
 # Установите зависимости
 pip install -r requirements.txt
 ```
